@@ -17,29 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.saucedemo.com/')
-
-WebUI.doubleClick(findTestObject('Object Repository/Logout/Page_Swag Labs/div_Accepted usernames arestandard_userlock_f87578'))
-
-WebUI.setText(findTestObject('Object Repository/Logout/Page_Swag Labs/input_Swag Labs_user-name'), 'standard_user')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Logout/Page_Swag Labs/input_Swag Labs_password'), '9NLz+4tGZcQ=')
-
-WebUI.click(findTestObject('Object Repository/Logout/Page_Swag Labs/div_Password for all userssecret_sauce'))
-
-WebUI.click(findTestObject('Object Repository/Logout/Page_Swag Labs/div_Password for all userssecret_sauce'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Logout/Page_Swag Labs/input_Swag Labs_password'), 'th01Xh6r9ew=')
-
-WebUI.doubleClick(findTestObject('Object Repository/Logout/Page_Swag Labs/div_Password for all userssecret_sauce'))
-
-WebUI.click(findTestObject('Object Repository/Logout/Page_Swag Labs/div_Swag Labs_login_wrapper-inner'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Logout/Page_Swag Labs/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('Object Repository/Logout/Page_Swag Labs/input_Swag Labs_login-button'))
+WebUI.callTestCase(findTestCase('Auth/TS_AU_01 Login valid'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Logout/Page_Swag Labs/button_Open Menu'))
 

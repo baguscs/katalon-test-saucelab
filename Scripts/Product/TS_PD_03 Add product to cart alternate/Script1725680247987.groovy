@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.saucedemo.com/')
-
-WebUI.doubleClick(findTestObject('Object Repository/Product/Add product to cart alternate/Page_Swag Labs/div_Accepted usernames arestandard_userlock_f87578'))
-
-WebUI.setText(findTestObject('Object Repository/Product/Add product to cart alternate/Page_Swag Labs/input_Swag Labs_user-name'), 
-    'standard_user')
-
-WebUI.doubleClick(findTestObject('Object Repository/Product/Add product to cart alternate/Page_Swag Labs/div_Password for all userssecret_sauce'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Product/Add product to cart alternate/Page_Swag Labs/input_Swag Labs_password'), 
-    'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('Object Repository/Product/Add product to cart alternate/Page_Swag Labs/input_Swag Labs_login-button'))
+WebUI.callTestCase(findTestCase('Auth/TS_AU_01 Login valid'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Product/Add product to cart alternate/Page_Swag Labs/div_Sauce Labs Backpack'))
 
