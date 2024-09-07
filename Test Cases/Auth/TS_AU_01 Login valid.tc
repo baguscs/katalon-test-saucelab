@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User dapat melakukan login</description>
+   <name>TS_AU_01 Login valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21efa6a7-1cb4-4bbf-9da4-fda97c14f92a</testCaseGuid>
+</TestCaseEntity>

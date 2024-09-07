@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User dapat menambahkan produk ke keranjang dari halaman detail produk</description>
+   <name>TS_PD_03 Add product to cart alternate</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>29421fd8-2fad-4a2b-b447-01ba2fa35e95</testCaseGuid>
+</TestCaseEntity>

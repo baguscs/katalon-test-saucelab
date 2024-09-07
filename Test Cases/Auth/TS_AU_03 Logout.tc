@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User dapat melakukan logout</description>
+   <name>TS_AU_03 Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ecb226f-668b-42b3-a2ae-d2a94bf2bc46</testCaseGuid>
+</TestCaseEntity>

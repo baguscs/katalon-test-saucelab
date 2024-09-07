@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User dapat melakukan checkout pada barang yang ada di keranjang</description>
+   <name>TS_PD_05 Checkout product from cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c66712c-bdf1-4ee5-8895-785acc1a482f</testCaseGuid>
+</TestCaseEntity>

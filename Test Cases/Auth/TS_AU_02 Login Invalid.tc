@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User tidak bisa melakukan login dengan akun invalid</description>
+   <name>TS_AU_02 Login Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ef7aed5-cbb0-49c6-aacb-b20c70199726</testCaseGuid>
+</TestCaseEntity>

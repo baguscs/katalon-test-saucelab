@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User dapat menghapus barang yang ada di keranjang</description>
+   <name>TS_PD_04 Delete product from cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>926615ef-bb2a-4194-9185-34d31b8131ba</testCaseGuid>
+</TestCaseEntity>
